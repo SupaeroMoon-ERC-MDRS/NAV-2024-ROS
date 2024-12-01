@@ -1,0 +1,60 @@
+[1.001s] Invoking command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_control': AMENT_PREFIX_PATH=/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages:/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/osr_control build --build-base /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build install --record /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/install.log --install-scripts $base/lib/osr_control --single-version-externally-managed install_data
+[1.275s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.275s]   warnings.warn(
+[1.284s] running egg_info
+[1.285s] creating ../build/osr_control/osr_control.egg-info
+[1.285s] writing ../build/osr_control/osr_control.egg-info/PKG-INFO
+[1.285s] writing dependency_links to ../build/osr_control/osr_control.egg-info/dependency_links.txt
+[1.286s] writing entry points to ../build/osr_control/osr_control.egg-info/entry_points.txt
+[1.286s] writing requirements to ../build/osr_control/osr_control.egg-info/requires.txt
+[1.286s] writing top-level names to ../build/osr_control/osr_control.egg-info/top_level.txt
+[1.286s] writing manifest file '../build/osr_control/osr_control.egg-info/SOURCES.txt'
+[1.288s] reading manifest file '../build/osr_control/osr_control.egg-info/SOURCES.txt'
+[1.289s] writing manifest file '../build/osr_control/osr_control.egg-info/SOURCES.txt'
+[1.289s] running build
+[1.289s] running build_py
+[1.290s] creating /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build
+[1.290s] creating /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib
+[1.290s] creating /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control
+[1.290s] copying osr_control/ina_260_pub.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control
+[1.290s] copying osr_control/servo_control.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control
+[1.290s] copying osr_control/roboclaw.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control
+[1.291s] copying osr_control/joy_extras.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control
+[1.291s] copying osr_control/rover.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control
+[1.292s] copying osr_control/roboclaw_wrapper.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control
+[1.292s] copying osr_control/__init__.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control
+[1.292s] running install
+[1.293s] running install_lib
+[1.294s] creating /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control
+[1.294s] copying /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control/ina_260_pub.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control
+[1.294s] copying /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control/servo_control.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control
+[1.294s] copying /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control/roboclaw.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control
+[1.295s] copying /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control/joy_extras.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control
+[1.295s] copying /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control/rover.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control
+[1.295s] copying /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control/roboclaw_wrapper.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control
+[1.295s] copying /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build/lib/osr_control/__init__.py -> /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control
+[1.296s] byte-compiling /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control/ina_260_pub.py to ina_260_pub.cpython-310.pyc
+[1.297s] byte-compiling /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control/servo_control.py to servo_control.cpython-310.pyc
+[1.298s] byte-compiling /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control/roboclaw.py to roboclaw.cpython-310.pyc
+[1.306s] byte-compiling /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control/joy_extras.py to joy_extras.cpython-310.pyc
+[1.307s] byte-compiling /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control/rover.py to rover.cpython-310.pyc
+[1.309s] byte-compiling /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control/roboclaw_wrapper.py to roboclaw_wrapper.cpython-310.pyc
+[1.313s] byte-compiling /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control/__init__.py to __init__.cpython-310.pyc
+[1.313s] running install_data
+[1.313s] creating /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/share/ament_index
+[1.314s] creating /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/share/ament_index/resource_index
+[1.314s] creating /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/share/ament_index/resource_index/packages
+[1.314s] copying resource/osr_control -> /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/share/ament_index/resource_index/packages
+[1.314s] copying package.xml -> /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/share/osr_control
+[1.315s] creating /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/share/osr_control/launch
+[1.315s] creating /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/share/osr_control/config
+[1.315s] running install_egg_info
+[1.317s] Copying ../build/osr_control/osr_control.egg-info to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control-0.0.0-py3.10.egg-info
+[1.319s] running install_scripts
+[1.342s] Installing ina260 script to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/osr_control
+[1.342s] Installing joy_extras script to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/osr_control
+[1.343s] Installing roboclaw_wrapper script to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/osr_control
+[1.343s] Installing rover script to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/osr_control
+[1.344s] Installing servo_control script to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/osr_control
+[1.344s] writing list of installed files to '/home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/install.log'
+[1.370s] Invoked command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_control' returned '0': AMENT_PREFIX_PATH=/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages:/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/osr_control build --build-base /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build install --record /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/install.log --install-scripts $base/lib/osr_control --single-version-externally-managed install_data

@@ -1,0 +1,180 @@
+[0.089s] Invoking command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control:/home/seabro/osr_ws/src/osr-rover-code/install/osr_control:/home/seabro/osr_ws/src/install/osr_control:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --build /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_interfaces -- -j8 -l8
+[0.322s] [ 10%] Built target osr_interfaces__cpp
+[0.322s] [ 12%] Built target osr_interfaces__rosidl_generator_c
+[0.351s] [ 12%] Built target ament_cmake_python_copy_osr_interfaces
+[0.401s] [ 23%] Built target osr_interfaces__rosidl_typesupport_cpp
+[0.418s] [ 48%] Built target osr_interfaces__rosidl_typesupport_fastrtps_c
+[0.418s] [ 53%] Built target osr_interfaces__rosidl_typesupport_introspection_c
+[0.422s] [ 65%] Built target osr_interfaces__rosidl_typesupport_c
+[0.423s] [ 65%] Built target osr_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.435s] [ 76%] Built target osr_interfaces__rosidl_typesupport_introspection_cpp
+[0.484s] [ 76%] Built target osr_interfaces
+[0.536s] [ 78%] Built target osr_interfaces__py
+[0.590s] [ 87%] Built target osr_interfaces__rosidl_generator_py
+[0.647s] [ 95%] Built target osr_interfaces__rosidl_typesupport_c__pyext
+[0.647s] [ 95%] Built target osr_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.649s] [100%] Built target osr_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.038s] running egg_info
+[1.041s] writing osr_interfaces.egg-info/PKG-INFO
+[1.042s] writing dependency_links to osr_interfaces.egg-info/dependency_links.txt
+[1.043s] writing top-level names to osr_interfaces.egg-info/top_level.txt
+[1.049s] reading manifest file 'osr_interfaces.egg-info/SOURCES.txt'
+[1.051s] writing manifest file 'osr_interfaces.egg-info/SOURCES.txt'
+[1.103s] [100%] Built target ament_cmake_python_build_osr_interfaces_egg
+[1.126s] Invoked command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control:/home/seabro/osr_ws/src/osr-rover-code/install/osr_control:/home/seabro/osr_ws/src/install/osr_control:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --build /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_interfaces -- -j8 -l8
+[1.367s] Invoking command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control:/home/seabro/osr_ws/src/osr-rover-code/install/osr_control:/home/seabro/osr_ws/src/install/osr_control:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --install /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_interfaces
+[1.386s] -- Install configuration: ""
+[1.387s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/ament_index/resource_index/rosidl_interfaces/osr_interfaces
+[1.388s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[1.388s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[1.389s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/status.h
+[1.389s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/command_drive.h
+[1.390s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/command_corner.h
+[1.390s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.390s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[1.391s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__struct.h
+[1.391s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__functions.c
+[1.391s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__functions.c
+[1.391s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__functions.h
+[1.392s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__functions.h
+[1.392s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__struct.h
+[1.392s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__functions.c
+[1.392s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__struct.h
+[1.393s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__functions.h
+[1.393s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__type_support.h
+[1.393s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__type_support.h
+[1.394s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__type_support.h
+[1.394s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/environment/library_path.sh
+[1.394s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/environment/library_path.dsv
+[1.395s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/lib/libosr_interfaces__rosidl_generator_c.so
+[1.396s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[1.396s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[1.397s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.397s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[1.398s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__rosidl_typesupport_fastrtps_c.h
+[1.398s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__rosidl_typesupport_fastrtps_c.h
+[1.399s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[1.399s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.399s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[1.399s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[1.400s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.400s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[1.400s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__rosidl_typesupport_introspection_c.h
+[1.401s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__type_support.c
+[1.401s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__rosidl_typesupport_introspection_c.h
+[1.401s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__type_support.c
+[1.402s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__type_support.c
+[1.402s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__rosidl_typesupport_introspection_c.h
+[1.402s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_introspection_c.so
+[1.403s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_c.so
+[1.403s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[1.403s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[1.404s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/command_drive.hpp
+[1.404s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/status.hpp
+[1.404s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/command_corner.hpp
+[1.405s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[1.406s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__traits.hpp
+[1.406s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__traits.hpp
+[1.406s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__struct.hpp
+[1.407s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__builder.hpp
+[1.408s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__builder.hpp
+[1.408s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__builder.hpp
+[1.408s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__struct.hpp
+[1.409s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__traits.hpp
+[1.409s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__struct.hpp
+[1.409s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[1.409s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[1.409s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.410s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[1.410s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__rosidl_typesupport_fastrtps_cpp.hpp
+[1.410s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/dds_fastrtps
+[1.411s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.411s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__rosidl_typesupport_fastrtps_cpp.hpp
+[1.411s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.411s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces
+[1.412s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg
+[1.412s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail
+[1.412s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__type_support.cpp
+[1.412s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__rosidl_typesupport_introspection_cpp.hpp
+[1.412s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__rosidl_typesupport_introspection_cpp.hpp
+[1.412s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[1.413s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_drive__type_support.cpp
+[1.413s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/include/osr_interfaces/osr_interfaces/msg/detail/command_corner__type_support.cpp
+[1.413s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.413s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/lib/libosr_interfaces__rosidl_typesupport_cpp.so
+[1.413s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/environment/pythonpath.sh
+[1.414s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/environment/pythonpath.dsv
+[1.414s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces-0.0.0-py3.10.egg-info
+[1.414s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.414s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.414s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.414s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.415s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces
+[1.415s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.415s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/_osr_interfaces_s.ep.rosidl_typesupport_c.c
+[1.415s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg
+[1.415s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_status_s.c
+[1.416s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_status.py
+[1.416s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_command_drive.py
+[1.416s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_command_corner_s.c
+[1.416s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_command_drive_s.c
+[1.416s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/_command_corner.py
+[1.417s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg/__init__.py
+[1.417s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/_osr_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.417s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.417s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/_osr_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.418s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/libosr_interfaces__rosidl_generator_py.so
+[1.418s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.418s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/__init__.py
+[1.497s] Listing '/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces'...
+[1.497s] Listing '/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/msg'...
+[1.506s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.507s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.508s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/local/lib/python3.10/dist-packages/osr_interfaces/osr_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.508s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/lib/libosr_interfaces__rosidl_generator_py.so
+[1.509s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/msg/Status.idl
+[1.510s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/msg/CommandDrive.idl
+[1.510s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/msg/CommandCorner.idl
+[1.510s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/msg/Status.msg
+[1.511s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/msg/CommandDrive.msg
+[1.511s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/msg/CommandCorner.msg
+[1.512s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/ament_index/resource_index/package_run_dependencies/osr_interfaces
+[1.512s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/ament_index/resource_index/parent_prefix_path/osr_interfaces
+[1.512s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/environment/ament_prefix_path.sh
+[1.512s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/environment/ament_prefix_path.dsv
+[1.512s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/environment/path.sh
+[1.512s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/environment/path.dsv
+[1.512s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/local_setup.bash
+[1.513s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/local_setup.sh
+[1.513s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/local_setup.zsh
+[1.514s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/local_setup.dsv
+[1.514s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/package.dsv
+[1.514s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/ament_index/resource_index/packages/osr_interfaces
+[1.515s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_generator_cExport.cmake
+[1.515s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.516s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.516s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.516s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.517s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.517s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_cExport.cmake
+[1.518s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.518s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_generator_cppExport.cmake
+[1.518s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.519s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.519s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.519s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.520s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_cppExport.cmake
+[1.520s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.521s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_generator_pyExport.cmake
+[1.521s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/export_osr_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.521s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.521s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.522s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.522s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.522s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.522s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.522s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.522s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfacesConfig.cmake
+[1.522s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/cmake/osr_interfacesConfig-version.cmake
+[1.522s] -- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_interfaces/share/osr_interfaces/package.xml
+[1.527s] Invoked command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control:/home/seabro/osr_ws/src/osr-rover-code/install/osr_control:/home/seabro/osr_ws/src/install/osr_control:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --install /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_interfaces

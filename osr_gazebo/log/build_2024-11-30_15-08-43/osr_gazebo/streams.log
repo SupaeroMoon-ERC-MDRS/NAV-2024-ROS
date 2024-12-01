@@ -1,0 +1,102 @@
+[0.040s] Invoking command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo -DCMAKE_INSTALL_PREFIX=/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo
+[0.892s] -- The C compiler identification is GNU 11.4.0
+[3.254s] -- The CXX compiler identification is GNU 11.4.0
+[4.932s] -- Detecting C compiler ABI info
+[5.499s] -- Detecting C compiler ABI info - done
+[5.521s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.523s] -- Detecting C compile features
+[5.524s] -- Detecting C compile features - done
+[5.535s] -- Detecting CXX compiler ABI info
+[6.119s] -- Detecting CXX compiler ABI info - done
+[6.134s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.134s] -- Detecting CXX compile features
+[6.135s] -- Detecting CXX compile features - done
+[6.163s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.495s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.773s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[7.466s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.486s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.520s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.032s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[8.189s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.204s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.325s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[20.710s] -- Found FastRTPS: /opt/ros/humble/include  
+[30.436s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.472s] -- Looking for pthread.h
+[30.894s] -- Looking for pthread.h - found
+[30.895s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[31.235s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[31.238s] -- Found Threads: TRUE  
+[31.381s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[31.424s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[31.496s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[31.722s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[31.726s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[31.726s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[31.967s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[32.129s] -- Configuring done
+[32.167s] -- Generating done
+[32.170s] -- Build files have been written to: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo
+[32.191s] Invoked command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo -DCMAKE_INSTALL_PREFIX=/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo
+[32.196s] Invoking command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --build /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo -- -j8 -l8
+[32.283s] [ 50%] [32mBuilding CXX object CMakeFiles/osr_controller.dir/src/osr_controller.cpp.o[0m
+[33.176s] In file included from [01m[K/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/src/osr_controller.cpp:13[m[K:
+[33.177s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[33.177s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[33.177s]       |  [01;35m[K^~~~~~~[m[K
+[66.432s] [100%] [32m[1mLinking CXX executable osr_controller[0m
+[68.987s] [100%] Built target osr_controller
+[69.009s] Invoked command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --build /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo -- -j8 -l8
+[69.074s] Invoking command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --install /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo
+[69.086s] -- Install configuration: ""
+[69.086s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//launch
+[69.090s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//launch/empty_world.launch.py
+[69.091s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//launch/rviz.launch.py
+[69.091s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//config
+[69.092s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//config/controller_velocity.yaml
+[69.093s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//urdf
+[69.094s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//urdf/osr.urdf.xacro
+[69.095s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//urdf/insert_transmission.urdf.xacro
+[69.095s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//urdf/gazebo.urdf.xacro
+[69.096s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes
+[69.097s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/turn_left_test.stl
+[69.100s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/wheel_link_left_2.stl
+[69.112s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_final.stl
+[69.125s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/turn_L.stl
+[69.130s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/body.stl
+[69.169s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/arm.stl
+[69.176s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/wheel_middle_left.stl
+[69.188s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rockerbogie_front_1.stl
+[69.208s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/turn_right_test.stl
+[69.211s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_front.stl
+[69.224s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/body_axis.stl
+[69.229s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rockerbogie_middle_1.stl
+[69.256s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/box_link.stl
+[69.260s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/wheel.stl
+[69.269s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/turn_R.stl
+[69.272s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_middle.stl
+[69.284s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_rear.stl
+[69.292s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/wheel_link_right_2.stl
+[69.299s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//rviz
+[69.300s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//rviz/rviz_settings.rviz
+[69.301s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/lib/osr_gazebo/osr_controller
+[69.312s] -- Set runtime path of "/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/lib/osr_gazebo/osr_controller" to ""
+[69.312s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/ament_index/resource_index/package_run_dependencies/osr_gazebo
+[69.313s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/ament_index/resource_index/parent_prefix_path/osr_gazebo
+[69.314s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/environment/ament_prefix_path.sh
+[69.314s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/environment/ament_prefix_path.dsv
+[69.314s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/environment/path.sh
+[69.315s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/environment/path.dsv
+[69.315s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/local_setup.bash
+[69.316s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/local_setup.sh
+[69.316s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/local_setup.zsh
+[69.317s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/local_setup.dsv
+[69.317s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.dsv
+[69.318s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/ament_index/resource_index/packages/osr_gazebo
+[69.318s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/cmake/osr_gazeboConfig.cmake
+[69.318s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/cmake/osr_gazeboConfig-version.cmake
+[69.318s] -- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.xml
+[69.321s] Invoked command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --install /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo

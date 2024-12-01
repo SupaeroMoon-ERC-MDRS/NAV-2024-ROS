@@ -1,0 +1,27 @@
+[0.824s] Invoking command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_control': PYTHONPATH=/home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/osr_control build --build-base /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build install --record /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/install.log --install-scripts $base/lib/osr_control --single-version-externally-managed install_data
+[1.051s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.051s]   warnings.warn(
+[1.061s] running egg_info
+[1.061s] writing ../build/osr_control/osr_control.egg-info/PKG-INFO
+[1.062s] writing dependency_links to ../build/osr_control/osr_control.egg-info/dependency_links.txt
+[1.062s] writing entry points to ../build/osr_control/osr_control.egg-info/entry_points.txt
+[1.062s] writing requirements to ../build/osr_control/osr_control.egg-info/requires.txt
+[1.062s] writing top-level names to ../build/osr_control/osr_control.egg-info/top_level.txt
+[1.063s] reading manifest file '../build/osr_control/osr_control.egg-info/SOURCES.txt'
+[1.064s] writing manifest file '../build/osr_control/osr_control.egg-info/SOURCES.txt'
+[1.064s] running build
+[1.064s] running build_py
+[1.065s] running install
+[1.065s] running install_lib
+[1.066s] running install_data
+[1.066s] running install_egg_info
+[1.068s] removing '/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.068s] Copying ../build/osr_control/osr_control.egg-info to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages/osr_control-0.0.0-py3.10.egg-info
+[1.069s] running install_scripts
+[1.087s] Installing ina260 script to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/osr_control
+[1.087s] Installing joy_extras script to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/osr_control
+[1.087s] Installing roboclaw_wrapper script to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/osr_control
+[1.087s] Installing rover script to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/osr_control
+[1.088s] Installing servo_control script to /home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/osr_control
+[1.088s] writing list of installed files to '/home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/install.log'
+[1.109s] Invoked command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_control' returned '0': PYTHONPATH=/home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seabro/osr_ws/src/osr-rover-code/ROS/install/osr_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/osr_control build --build-base /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/build install --record /home/seabro/osr_ws/src/osr-rover-code/ROS/build/osr_control/install.log --install-scripts $base/lib/osr_control --single-version-externally-managed install_data

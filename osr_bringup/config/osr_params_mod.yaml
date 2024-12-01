@@ -1,0 +1,4 @@
+rover:
+  ros__parameters:
+    rover_dimensions:
+      wheel_radius: 0.082  # [m]

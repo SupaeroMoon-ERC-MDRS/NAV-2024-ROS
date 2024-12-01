@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.001239] (osr_gazebo) JobQueued: {'identifier': 'osr_gazebo', 'dependencies': OrderedDict()}
+[0.001317] (osr_gazebo) JobStarted: {'identifier': 'osr_gazebo'}
+[0.012992] (osr_gazebo) JobProgress: {'identifier': 'osr_gazebo', 'progress': 'cmake'}
+[0.014516] (osr_gazebo) JobProgress: {'identifier': 'osr_gazebo', 'progress': 'build'}
+[0.014619] (osr_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'seabro'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/seabro/osr_ws/src/osr-rover-code/install/osr_interfaces/lib:/home/seabro/osr_ws/src/install/osr_interfaces/lib:/home/seabro/osr_ws/install/osr_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/seabro'), ('OLDPWD', '/home/seabro/osr_ws/src/osr-rover-code/ROS'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install:/home/seabro/osr_ws/src/osr-rover-code/install:/home/seabro/osr_ws/src/install:/home/seabro/osr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seabro'), ('NAME', 'EmmaLaptop'), ('WSL_INTEROP', '/run/WSL/661_interop'), ('http_proxy', 'http://suproxy.isae.fr:3128'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/seabro/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Emma/AppData/C:/Users/Emma/AppData/Local/Programs/Python/Python37:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Users/Emma/AppData/Local/Programs/Python/Python37/Scripts:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/Emma/miniconda3:/mnt/c/Users/Emma/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/Emma/miniconda3/Library/usr/bin:/mnt/c/Users/Emma/miniconda3/Library/bin:/mnt/c/Users/Emma/miniconda3/Scripts:/mnt/c/Users/Emma/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Emma/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Emma/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Emma/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Emma/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WSL_PAC_URL', 'http://suproxy.isae.fr/wpad.dat'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/seabro/osr_ws/src/osr-rover-code/install/osr_control:/home/seabro/osr_ws/src/osr-rover-code/install/osr_interfaces:/home/seabro/osr_ws/src/osr-rover-code/install/osr_gazebo:/home/seabro/osr_ws/src/osr-rover-code/install/osr_bringup:/home/seabro/osr_ws/src/install/osr_control:/home/seabro/osr_ws/src/install/osr_interfaces:/home/seabro/osr_ws/src/install/osr_gazebo:/home/seabro/osr_ws/src/install/osr_bringup:/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo:/home/seabro/osr_ws/install/osr_control:/home/seabro/osr_ws/install/osr_interfaces:/home/seabro/osr_ws/install/osr_gazebo:/home/seabro/osr_ws/install/osr_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/seabro/osr_ws/src/osr-rover-code/install/osr_control/lib/python3.10/site-packages:/home/seabro/osr_ws/src/osr-rover-code/install/osr_interfaces/local/lib/python3.10/dist-packages:/home/seabro/osr_ws/src/install/osr_control/lib/python3.10/site-packages:/home/seabro/osr_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages:/home/seabro/osr_ws/build/osr_control:/home/seabro/osr_ws/install/osr_control/lib/python3.10/site-packages:/home/seabro/osr_ws/install/osr_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/usr/lib/python3/dist-packages:/usr/lib/python3/dist-packages:/usr/lib/python3/dist-packages'), ('HTTP_PROXY', 'http://suproxy.isae.fr:3128'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/seabro/osr_ws/src/osr-rover-code/install/osr_interfaces:/home/seabro/osr_ws/src/osr-rover-code/install/osr_gazebo:/home/seabro/osr_ws/src/osr-rover-code/install/osr_bringup:/home/seabro/osr_ws/src/install/osr_interfaces:/home/seabro/osr_ws/src/install/osr_gazebo:/home/seabro/osr_ws/src/install/osr_bringup:/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo:/home/seabro/osr_ws/install/osr_interfaces:/home/seabro/osr_ws/install/osr_gazebo:/home/seabro/osr_ws/install/osr_bringup:/home/seabro/osr_ws/src/osr-rover-code/install/osr_control:/home/seabro/osr_ws/src/install/osr_control:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.044923] (osr_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100177] (-) TimerEvent: {}
+[0.175708] (osr_gazebo) StdoutLine: {'line': b'-- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.200560] (-) TimerEvent: {}
+[0.301175] (-) TimerEvent: {}
+[0.327915] (osr_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.331615] (osr_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.340495] (osr_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.354355] (osr_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.371420] (osr_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.401901] (-) TimerEvent: {}
+[0.503032] (-) TimerEvent: {}
+[0.510851] (osr_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.554768] (osr_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.558302] (osr_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.603660] (-) TimerEvent: {}
+[0.705454] (-) TimerEvent: {}
+[0.806677] (-) TimerEvent: {}
+[0.907443] (-) TimerEvent: {}
+[1.008390] (-) TimerEvent: {}
+[1.109831] (-) TimerEvent: {}
+[1.218703] (-) TimerEvent: {}
+[1.327601] (-) TimerEvent: {}
+[1.436454] (-) TimerEvent: {}
+[1.537183] (-) TimerEvent: {}
+[1.637925] (-) TimerEvent: {}
+[1.739196] (-) TimerEvent: {}
+[1.848057] (-) TimerEvent: {}
+[1.948687] (-) TimerEvent: {}
+[2.049538] (-) TimerEvent: {}
+[2.150216] (-) TimerEvent: {}
+[2.251841] (-) TimerEvent: {}
+[2.352844] (-) TimerEvent: {}
+[2.453977] (-) TimerEvent: {}
+[2.562916] (-) TimerEvent: {}
+[2.670545] (-) TimerEvent: {}
+[2.779470] (-) TimerEvent: {}
+[2.888421] (-) TimerEvent: {}
+[2.997244] (-) TimerEvent: {}
+[3.106089] (-) TimerEvent: {}
+[3.214892] (-) TimerEvent: {}
+[3.323713] (-) TimerEvent: {}
+[3.426392] (-) TimerEvent: {}
+[3.535286] (-) TimerEvent: {}
+[3.644521] (-) TimerEvent: {}
+[3.754643] (-) TimerEvent: {}
+[3.864694] (-) TimerEvent: {}
+[3.970426] (-) TimerEvent: {}
+[4.075047] (-) TimerEvent: {}
+[4.176657] (-) TimerEvent: {}
+[4.286931] (-) TimerEvent: {}
+[4.397354] (-) TimerEvent: {}
+[4.505562] (-) TimerEvent: {}
+[4.609454] (-) TimerEvent: {}
+[4.719739] (-) TimerEvent: {}
+[4.828292] (-) TimerEvent: {}
+[4.928864] (-) TimerEvent: {}
+[5.030026] (-) TimerEvent: {}
+[5.131417] (-) TimerEvent: {}
+[5.241707] (-) TimerEvent: {}
+[5.351954] (-) TimerEvent: {}
+[5.453680] (-) TimerEvent: {}
+[5.523459] (osr_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.555472] (-) TimerEvent: {}
+[5.587581] (osr_gazebo) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[5.601390] (osr_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.623965] (osr_gazebo) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.632593] (osr_gazebo) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.634423] (osr_gazebo) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.657564] (-) TimerEvent: {}
+[5.716716] (osr_gazebo) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[5.758824] (-) TimerEvent: {}
+[5.859618] (-) TimerEvent: {}
+[5.960220] (-) TimerEvent: {}
+[6.021067] (osr_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.064209] (-) TimerEvent: {}
+[6.174555] (-) TimerEvent: {}
+[6.218431] (osr_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[6.280313] (-) TimerEvent: {}
+[6.313507] (osr_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo\n'}
+[6.350261] (osr_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target osr_controller\x1b[0m\n'}
+[6.364454] (osr_gazebo) StdoutLine: {'line': b'[100%] Built target osr_controller\n'}
+[6.372759] (osr_gazebo) CommandEnded: {'returncode': 0}
+[6.380757] (-) TimerEvent: {}
+[6.389918] (osr_gazebo) JobProgress: {'identifier': 'osr_gazebo', 'progress': 'install'}
+[6.406093] (osr_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo'], 'cwd': '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'seabro'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/seabro/osr_ws/src/osr-rover-code/install/osr_interfaces/lib:/home/seabro/osr_ws/src/install/osr_interfaces/lib:/home/seabro/osr_ws/install/osr_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/seabro'), ('OLDPWD', '/home/seabro/osr_ws/src/osr-rover-code/ROS'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install:/home/seabro/osr_ws/src/osr-rover-code/install:/home/seabro/osr_ws/src/install:/home/seabro/osr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seabro'), ('NAME', 'EmmaLaptop'), ('WSL_INTEROP', '/run/WSL/661_interop'), ('http_proxy', 'http://suproxy.isae.fr:3128'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/seabro/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Emma/AppData/C:/Users/Emma/AppData/Local/Programs/Python/Python37:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Users/Emma/AppData/Local/Programs/Python/Python37/Scripts:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/Emma/miniconda3:/mnt/c/Users/Emma/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/Emma/miniconda3/Library/usr/bin:/mnt/c/Users/Emma/miniconda3/Library/bin:/mnt/c/Users/Emma/miniconda3/Scripts:/mnt/c/Users/Emma/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Emma/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Emma/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Emma/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Emma/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WSL_PAC_URL', 'http://suproxy.isae.fr/wpad.dat'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/seabro/osr_ws/src/osr-rover-code/install/osr_control:/home/seabro/osr_ws/src/osr-rover-code/install/osr_interfaces:/home/seabro/osr_ws/src/osr-rover-code/install/osr_gazebo:/home/seabro/osr_ws/src/osr-rover-code/install/osr_bringup:/home/seabro/osr_ws/src/install/osr_control:/home/seabro/osr_ws/src/install/osr_interfaces:/home/seabro/osr_ws/src/install/osr_gazebo:/home/seabro/osr_ws/src/install/osr_bringup:/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo:/home/seabro/osr_ws/install/osr_control:/home/seabro/osr_ws/install/osr_interfaces:/home/seabro/osr_ws/install/osr_gazebo:/home/seabro/osr_ws/install/osr_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/seabro/osr_ws/src/osr-rover-code/install/osr_control/lib/python3.10/site-packages:/home/seabro/osr_ws/src/osr-rover-code/install/osr_interfaces/local/lib/python3.10/dist-packages:/home/seabro/osr_ws/src/install/osr_control/lib/python3.10/site-packages:/home/seabro/osr_ws/src/install/osr_interfaces/local/lib/python3.10/dist-packages:/home/seabro/osr_ws/build/osr_control:/home/seabro/osr_ws/install/osr_control/lib/python3.10/site-packages:/home/seabro/osr_ws/install/osr_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages::/usr/lib/python3/dist-packages:/usr/lib/python3/dist-packages:/usr/lib/python3/dist-packages'), ('HTTP_PROXY', 'http://suproxy.isae.fr:3128'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/seabro/osr_ws/src/osr-rover-code/install/osr_interfaces:/home/seabro/osr_ws/src/osr-rover-code/install/osr_gazebo:/home/seabro/osr_ws/src/osr-rover-code/install/osr_bringup:/home/seabro/osr_ws/src/install/osr_interfaces:/home/seabro/osr_ws/src/install/osr_gazebo:/home/seabro/osr_ws/src/install/osr_bringup:/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo:/home/seabro/osr_ws/install/osr_interfaces:/home/seabro/osr_ws/install/osr_gazebo:/home/seabro/osr_ws/install/osr_bringup:/home/seabro/osr_ws/src/osr-rover-code/install/osr_control:/home/seabro/osr_ws/src/install/osr_control:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[6.411459] (osr_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.411902] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//launch\n'}
+[6.412039] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//launch/empty_world.launch.py\n'}
+[6.412156] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//launch/rviz.launch.py\n'}
+[6.412270] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//launch/marsyard2022.launch.py\n'}
+[6.412384] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//config\n'}
+[6.412497] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//config/controller_velocity.yaml\n'}
+[6.412610] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//urdf\n'}
+[6.412825] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//urdf/osr.urdf.xacro\n'}
+[6.412881] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//urdf/insert_transmission.urdf.xacro\n'}
+[6.412923] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//urdf/gazebo.urdf.xacro\n'}
+[6.412963] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes\n'}
+[6.413003] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/turn_left_test.stl\n'}
+[6.413043] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/wheel_link_left_2.stl\n'}
+[6.413082] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_final.stl\n'}
+[6.413121] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/turn_L.stl\n'}
+[6.413160] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/body.stl\n'}
+[6.413200] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/arm.stl\n'}
+[6.413238] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/wheel_middle_left.stl\n'}
+[6.413276] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rockerbogie_front_1.stl\n'}
+[6.413315] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/turn_right_test.stl\n'}
+[6.413356] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_front.stl\n'}
+[6.413394] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/body_axis.stl\n'}
+[6.413432] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rockerbogie_middle_1.stl\n'}
+[6.413469] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/box_link.stl\n'}
+[6.413506] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/wheel.stl\n'}
+[6.413542] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/turn_R.stl\n'}
+[6.413579] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_middle.stl\n'}
+[6.413617] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/rocker_bogie_link_rear.stl\n'}
+[6.413654] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//meshes/wheel_link_right_2.stl\n'}
+[6.413695] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//rviz\n'}
+[6.413734] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//rviz/rviz_settings.rviz\n'}
+[6.413770] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models\n'}
+[6.413808] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models/marsyard2022\n'}
+[6.413845] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models/marsyard2022/marsyard2022_terrain_texture.png:Zone.Identifier\n'}
+[6.417775] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models/marsyard2022/model.config:Zone.Identifier\n'}
+[6.428948] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models/marsyard2022/model.config\n'}
+[6.451307] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models/marsyard2022/README.md.txt\n'}
+[6.473693] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models/marsyard2022/model.sdf:Zone.Identifier\n'}
+[6.481189] (-) TimerEvent: {}
+[6.484952] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models/marsyard2022/marsyard2022_terrain_hm.tif:Zone.Identifier\n'}
+[6.507837] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models/marsyard2022/dem\n'}
+[6.508077] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models/marsyard2022/dem/marsyard2022_terrain_hm.tif\n'}
+[6.582507] (-) TimerEvent: {}
+[6.595151] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models/marsyard2022/dem/marsyard2022_terrain_texture.png\n'}
+[6.683948] (-) TimerEvent: {}
+[6.785955] (-) TimerEvent: {}
+[6.809923] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//models/marsyard2022/model.sdf\n'}
+[6.810402] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//worlds\n'}
+[6.810702] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//worlds/marsyard2022.world:Zone.Identifier\n'}
+[6.811205] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo//worlds/marsyard2022.world\n'}
+[6.811836] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/lib/osr_gazebo/osr_controller\n'}
+[6.812043] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/ament_index/resource_index/package_run_dependencies/osr_gazebo\n'}
+[6.812105] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/ament_index/resource_index/parent_prefix_path/osr_gazebo\n'}
+[6.812261] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/environment/ament_prefix_path.sh\n'}
+[6.812362] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/environment/ament_prefix_path.dsv\n'}
+[6.812472] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/environment/path.sh\n'}
+[6.812580] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/environment/path.dsv\n'}
+[6.812731] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/local_setup.bash\n'}
+[6.812843] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/local_setup.sh\n'}
+[6.812961] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/local_setup.zsh\n'}
+[6.813160] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/local_setup.dsv\n'}
+[6.813265] (osr_gazebo) StdoutLine: {'line': b'-- Installing: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.dsv\n'}
+[6.813370] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/ament_index/resource_index/packages/osr_gazebo\n'}
+[6.813487] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/cmake/osr_gazeboConfig.cmake\n'}
+[6.813586] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/cmake/osr_gazeboConfig-version.cmake\n'}
+[6.813760] (osr_gazebo) StdoutLine: {'line': b'-- Up-to-date: /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.xml\n'}
+[6.814980] (osr_gazebo) CommandEnded: {'returncode': 0}
+[6.849735] (osr_gazebo) JobEnded: {'identifier': 'osr_gazebo', 'rc': 0}
+[6.850749] (-) EventReactorShutdown: {}

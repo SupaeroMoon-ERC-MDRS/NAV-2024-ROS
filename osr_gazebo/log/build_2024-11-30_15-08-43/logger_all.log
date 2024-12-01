@@ -1,0 +1,108 @@
+[1.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f644a42c3a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f644a304220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f644a304220>>)
+[2.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.040s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.086s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'osr_gazebo'
+[2.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.180s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/seabro/osr_ws/install
+[2.186s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 349 installed packages in /opt/ros/humble
+[2.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.530s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_args' from command line to 'None'
+[2.530s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_target' from command line to 'None'
+[2.530s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.530s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.530s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[2.530s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[2.530s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[2.530s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.530s] Level 5:colcon.colcon_core.verb:set package 'osr_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.530s] DEBUG:colcon.colcon_core.verb:Building package 'osr_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo', 'merge_install': False, 'path': '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo', 'symlink_install': False, 'test_result_base': None}
+[2.531s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.534s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.534s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo' with build type 'ament_cmake'
+[2.535s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo'
+[2.555s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo -DCMAKE_INSTALL_PREFIX=/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo
+[34.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo -DCMAKE_INSTALL_PREFIX=/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo
+[34.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --build /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo -- -j8 -l8
+[71.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --build /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo -- -j8 -l8
+[71.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --install /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo
+[71.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(osr_gazebo)
+[71.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seabro/osr_ws/install/osr_control:/opt/ros/humble /usr/bin/cmake --install /home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/build/osr_gazebo
+[71.875s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo' for CMake module files
+[71.876s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo' for CMake config files
+[71.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_gazebo', 'cmake_prefix_path')
+[71.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.ps1'
+[71.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.dsv'
+[71.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.sh'
+[71.883s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/lib'
+[71.883s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/bin'
+[71.883s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/lib/pkgconfig/osr_gazebo.pc'
+[71.883s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/lib/python3.10/site-packages'
+[71.884s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/bin'
+[71.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.ps1'
+[71.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.dsv'
+[71.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.sh'
+[71.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.bash'
+[71.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.zsh'
+[71.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/colcon-core/packages/osr_gazebo)
+[71.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(osr_gazebo)
+[71.941s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo' for CMake module files
+[71.942s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo' for CMake config files
+[71.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('osr_gazebo', 'cmake_prefix_path')
+[71.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.ps1'
+[71.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.dsv'
+[71.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/hook/cmake_prefix_path.sh'
+[71.947s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/lib'
+[71.947s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/bin'
+[71.948s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/lib/pkgconfig/osr_gazebo.pc'
+[71.948s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/lib/python3.10/site-packages'
+[71.949s] Level 1:colcon.colcon_core.environment:checking '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/bin'
+[71.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.ps1'
+[71.950s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.dsv'
+[71.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.sh'
+[71.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.bash'
+[71.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/osr_gazebo/package.zsh'
+[71.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/osr_gazebo/share/colcon-core/packages/osr_gazebo)
+[71.954s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[71.955s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[71.955s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[71.955s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[72.102s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[72.102s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[72.103s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[72.103s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[72.103s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[72.103s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[72.104s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/local_setup.ps1'
+[72.108s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/_local_setup_util_ps1.py'
+[72.113s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/setup.ps1'
+[72.116s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/local_setup.sh'
+[72.118s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/_local_setup_util_sh.py'
+[72.120s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/setup.sh'
+[72.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/local_setup.bash'
+[72.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/setup.bash'
+[72.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/local_setup.zsh'
+[72.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seabro/osr_ws/src/osr-rover-code/ROS/osr_gazebo/install/setup.zsh'
